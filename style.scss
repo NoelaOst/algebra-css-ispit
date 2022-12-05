@@ -1,0 +1,56 @@
+@import "base/colors";
+@import "base/reset";
+@import "abstracts/mixins";
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 5%;
+    background-image: url("/blur-clean.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 5%;
+
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @include block-styling;
+        transform: translateY(-210%);
+        &:nth-child(1){
+            background-color: $gray;
+            animation: animacija1 2s 2s ease-in forwards;
+        }
+        &:nth-child(2){
+            background-color: $red;
+            animation: animacija1 2s 4s ease-in forwards;
+        }
+        &:nth-child(3){
+            background-color: $yellow;
+            animation: animacija1 2s 6s ease-in forwards;
+        }
+        
+    }
+}
+
+// animacija
+
+@keyframes animacija1 {
+    0%{
+        transform: translateY(-210%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
