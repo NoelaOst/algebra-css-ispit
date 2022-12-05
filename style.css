@@ -14,7 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-inline: 5%;
-  background-image: url("/blur-clean.jpg");
+  background-image: url("./blur-clean.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
