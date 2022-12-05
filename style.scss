@@ -29,15 +29,15 @@ body{
         transform: translateY(-210%);
         &:nth-child(1){
             background-color: $gray;
-            animation: animacija1 2s 2s ease-in forwards;
+            animation: animacija1 1.5s 1.5s ease-in forwards;
         }
         &:nth-child(2){
             background-color: $red;
-            animation: animacija1 2s 4s ease-in forwards;
+            animation: animacija1 1.5s 3s ease-in forwards;
         }
         &:nth-child(3){
             background-color: $yellow;
-            animation: animacija1 2s 6s ease-in forwards;
+            animation: animacija1 1.5s 4.5s ease-in forwards;
         }
         
     }

@@ -42,18 +42,18 @@ body {
 }
 .wrapper div:nth-child(1) {
   background-color: rgba(43, 43, 49, 0.69);
-  -webkit-animation: animacija1 2s 2s ease-in forwards;
-          animation: animacija1 2s 2s ease-in forwards;
+  -webkit-animation: animacija1 1.5s 1.5s ease-in forwards;
+          animation: animacija1 1.5s 1.5s ease-in forwards;
 }
 .wrapper div:nth-child(2) {
   background-color: rgba(124, 23, 23, 0.456);
-  -webkit-animation: animacija1 2s 4s ease-in forwards;
-          animation: animacija1 2s 4s ease-in forwards;
+  -webkit-animation: animacija1 1.5s 3s ease-in forwards;
+          animation: animacija1 1.5s 3s ease-in forwards;
 }
 .wrapper div:nth-child(3) {
   background-color: rgba(242, 152, 26, 0.492);
-  -webkit-animation: animacija1 2s 6s ease-in forwards;
-          animation: animacija1 2s 6s ease-in forwards;
+  -webkit-animation: animacija1 1.5s 4.5s ease-in forwards;
+          animation: animacija1 1.5s 4.5s ease-in forwards;
 }
 
 @-webkit-keyframes animacija1 {
